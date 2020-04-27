@@ -45,15 +45,15 @@ class month {
                 if(iplaukos!=0 && islaidos!=0){
                     HTML += `<div id="bal" class="cell">${iplaukos[i] - islaidos[i] } Eur</div>` 
                 } else if (!iplaukos) {
-
+                    HTML += `<div i id="isl" class="cell">${iplaukos[i]} Eur</div>`
                  }  else {
-                    HTML += `<div id="bal" class="cell">${iplaukos[i]} Eur</div>`
+                    HTML += `<div id="ipl" class="cell">${islaidos[i]} Eur</div>`
                 }
             }
         }
     }
     DOMA.innerHTML = HTML;
-    DOMA = DOMA.querySelectorAll('#bal');
+    DOMA = DOMA.querySelectorAll('#sum');
 }
 
 
