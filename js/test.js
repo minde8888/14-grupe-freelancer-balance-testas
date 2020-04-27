@@ -28,8 +28,6 @@ class month {
             }
         }
     DOM.innerHTML = HTML;
-    DOM.querySelectorAll('#mon');
-            
     }
 
     HTML = '';
@@ -53,7 +51,7 @@ class month {
         }
     }
     DOMA.innerHTML = HTML;
-    DOMA = DOMA.querySelectorAll('#sum');
+
 }
 
 
