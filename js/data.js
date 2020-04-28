@@ -1,6 +1,6 @@
 "use strict";
 
-const account = [
+let account = [
     { month: 10, income: 150 },
     { month: 1, income: 200, expense: 50 },
     { month: 3, income: 450, expense: 200 },
@@ -14,6 +14,5 @@ const account = [
     { month: 8, income: 450, expense: 120 },
     { month: 12, expense: 200 }
 ];
-
-
-export default account;
+const months = ['sausis', 'vasaris', 'kovas', 'balandis', 'geguze', 
+'birzelis', 'liepa', 'rugpjutis', 'rugsejis', 'spalis', 'lapkritis', 'gruodis'];

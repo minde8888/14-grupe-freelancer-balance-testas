@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Mindaugo metai</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/layout.css">
     <link rel="stylesheet" href="./css/table.css">
@@ -13,7 +13,7 @@
 <body>
     <div class="container">
         <div class="row">
-            <h1>Mano metai</h1>
+            <h1></h1>
         </div>
         <div class="row">
             <h2>Metų balansas</h2>
@@ -76,20 +76,22 @@
                     <div class="title">mėnuo, kai buvo mažiausiai uždirbta,bet ne lygu nuliui</div>
                 </div>
                 <div class="item">
-                    <div class="value">Mėnesio pavadinimas</div>
+                    <div id="maxIncome" class="value">Mėnesio pavadinimas</div>
                     <div class="title">mėnuo, kai buvo daugiausiai uždirbta</div>
                 </div>
                 <div class="item">
-                    <div class="value">Mėnesio pavadinimas</div>
+                    <div id="minExpense" class="value">Mėnesio pavadinimas</div>
                     <div class="title">mėnuo, kai buvo mažiausiai išlaidos, bet ne lygios nuliui</div>
                 </div>
                 <div class="item">
-                    <div class="value">Mėnesio pavadinimas</div>
+                    <div id="maxExpense" class="value">Mėnesio pavadinimas</div>
                     <div class="title">mėnuo, kai buvo didžiausios išlaidos</div>
                 </div>
             </div>
         </div>
     </div>
-    <script src="./js/main.js" type="module"></script>
+    <script src="./js/data.js"></script>
+    <script src="./js/function.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 </html>
